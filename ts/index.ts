@@ -1,4 +1,5 @@
-const BACKEND_ROOT_URL = 'http://localhost:3001'     //task-3
+//const BACKEND_ROOT_URL = 'http://localhost:3001'     //task-3
+const BACKEND_ROOT_URL = 'https://todo-backend-x3se.onrender.com'     //task-6
 import { Task } from "./class/Task.js";              //task-4
 import { Todos } from "./class/Todos.js";            //task-4    
 
