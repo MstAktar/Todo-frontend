@@ -9,7 +9,7 @@ class Todos {
         this.#backend_url = url
     }
 
-    getTasks = async () => {
+    getTasks = async ():Promise<Task[]> => {
         return new Promise(async (resolve, reject) => {
             fetch(this.#backend_url)
             .then(response => response.json())
